@@ -7,9 +7,9 @@ import (
 
 func main() {
     http.HandleFunc("/", HelloServer)
-    http.ListenAndServe(":5000", nil)
+    http.ListenAndServe(":3000", nil)
 }
 
 func HelloServer(w http.ResponseWriter, r *http.Request) {
-    fmt.Fprintf(w, "Hello, world! Lily!")
+    fmt.Fprintf(w, "Hello, Golang world!")
 }
