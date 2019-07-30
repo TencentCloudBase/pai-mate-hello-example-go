@@ -1,0 +1,7 @@
+deployScripts:
+  start:
+    - sh start.sh
+  restart:
+    - sh restart.sh
+  stop:
+    - sh stop.sh
