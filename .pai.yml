@@ -3,5 +3,5 @@ deployScripts:
     - sh start.sh
   restart:
     - sh restart.sh
-  stop:
+  delete:
     - sh stop.sh
